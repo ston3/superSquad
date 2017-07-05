@@ -1,8 +1,8 @@
 {
-  "name": "supersquad",
+  "name": "superSquad",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://ston3.github.io/superSquad",
+  "homepage": "https://ston3.github.io/superSquad/",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -16,7 +16,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   }

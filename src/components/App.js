@@ -9,7 +9,6 @@ class App extends Component {
         return(
             <div className="App container">
                 <h1>SuperSquad</h1>
-                <h2>Hello Stone!</h2>
                 <div className="row">
                     <div className="col s4">
                         <CharacterList />
