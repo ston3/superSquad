@@ -6,8 +6,10 @@ class HeroList extends  Component{
     render(){
         return(
             <div>
-                <h4>your hero squad</h4>
-                <ul className="collection">
+                <ul className="collection with-header">
+                    <li className="collection-header">
+                        <h4>Your Hero Squad</h4>
+                    </li>
                     {
                         this.props.heroes.map(hero => {
                             return (

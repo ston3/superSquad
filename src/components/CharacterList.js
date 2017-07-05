@@ -8,8 +8,10 @@ class CharacterList extends Component {
         console.log(this.props);
         return(
             <div>
-                <h4>Characters</h4>
-                <ul className="collection">
+                <ul className="collection with-header">
+                    <li className="collection-header">
+                        <h4>Characters</h4>
+                    </li>
                    {this.props.characters.map(character => {
                        return (
                             <li  className ="collection-item"  key = {character.id}>
