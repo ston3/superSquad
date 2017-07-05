@@ -18,7 +18,7 @@ class HeroList extends  Component{
                                         <div className="secondary-content" >
                                         <i  className="material-icons"
                                             onClick= {()=> this.props.removeCharacterById(hero.id)}>
-                                            done_all
+                                            clear
                                         </i>  
                                     </div>
                                     </div>
